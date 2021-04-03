@@ -3,12 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lufelipe <lufelipe@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: dalves-s <dalves-s@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/04/03 00:29:41 by lufelipe          #+#    #+#             */
-/*   Updated: 2021/04/03 13:24:09 by lufelipe         ###   ########.fr       */
+/*   Created: 2021/04/03 01:05:08 by dalves-s          #+#    #+#             */
+/*   Updated: 2021/04/03 14:26:52 by dalves-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <unistd.h>
+#include <stdio.h>
 
 void	rush(int x, int y);
 
@@ -17,7 +20,7 @@ int		main(void)
 	int x;
 	int y;
 
-	x = 5;
-	y = 3;
+	x = 40;
+	y = 40;
 	rush(x, y);
 }

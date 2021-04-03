@@ -3,14 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putchar.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lufelipe <lufelipe@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: dalves-s <dalves-s@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/04/03 00:29:37 by lufelipe          #+#    #+#             */
-/*   Updated: 2021/04/03 00:31:29 by lufelipe         ###   ########.fr       */
+/*   Created: 2021/04/03 01:05:01 by dalves-s          #+#    #+#             */
+/*   Updated: 2021/04/03 01:22:56 by dalves-s         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
+#include <stdio.h>
 
 void	ft_putchar(char c)
 {
