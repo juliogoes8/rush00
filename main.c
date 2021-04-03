@@ -6,7 +6,7 @@
 /*   By: jcesar-g <jcesar-g@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/03 01:05:08 by dalves-s          #+#    #+#             */
-/*   Updated: 2021/04/03 18:16:46 by jcesar-g         ###   ########.fr       */
+/*   Updated: 2021/04/03 18:30:53 by jcesar-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,6 @@ void	rush(int x, int y);
 
 int		main(void)
 {
-	int x;
-	int y;
-
-	x = 40;
-	y = 40;
-	rush(x, y);
+	rush(40, 40);
+	return (0);
 }
