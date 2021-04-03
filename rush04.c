@@ -3,15 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   rush04.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: dalves-s <dalves-s@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: jcesar-g <jcesar-g@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/03 01:04:51 by dalves-s          #+#    #+#             */
-/*   Updated: 2021/04/03 14:24:52 by dalves-s         ###   ########.fr       */
+/*   Updated: 2021/04/03 18:16:39 by jcesar-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
-#include <stdio.h>
 
 void	ft_putchar(char c);
 
