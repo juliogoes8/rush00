@@ -6,7 +6,7 @@
 /*   By: lufelipe <lufelipe@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/04 22:28:19 by lufelipe          #+#    #+#             */
-/*   Updated: 2021/04/04 22:30:03 by lufelipe         ###   ########.fr       */
+/*   Updated: 2021/04/05 01:14:11 by lufelipe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	rush(int x, int y)
 	int i;
 	int j;
 
-	if (x == 0 || y == 0)
+	if (x <= 0 || y <= 0)
 		return ;
 	i = 1;
 	while (i <= y)

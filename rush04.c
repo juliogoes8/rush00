@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   rush04.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: jcesar-g <jcesar-g@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: lufelipe <lufelipe@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/03 01:04:51 by dalves-s          #+#    #+#             */
-/*   Updated: 2021/04/03 18:16:39 by jcesar-g         ###   ########.fr       */
+/*   Updated: 2021/04/05 01:14:24 by lufelipe         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	rush(int x, int y)
 	int i;
 	int j;
 
-	if (x == 0 || y == 0)
+	if (x <= 0 || y <= 0)
 		return ;
 	i = 1;
 	while (i <= y)
